@@ -1,4 +1,4 @@
-package modelo;
+package exemplo;
 
 import com.cmrevoredo.s2d2.modeling.utils.SensitiveData;
 

@@ -1,15 +1,13 @@
-package formulario;
+package exemplo;
 
 import com.cmrevoredo.s2d2.modeling.threat.taxonomy.vectors.AttackVectors;
 import com.cmrevoredo.s2d2.modeling.threat.tree.B4FormSubmit;
 import com.cmrevoredo.s2d2.web.protocols.http.act.HttpResponse;
 import com.google.gson.JsonObject;
 
-import modelo.Usuario;
-
-public class ExemploSubmissaoForm {
+public class TestarSubmissaoForm {
 	public static void main(String[] args) {
-		ExemploSubmissaoForm html = new ExemploSubmissaoForm();
+		TestarSubmissaoForm html = new TestarSubmissaoForm();
 		JsonObject jsonObject = new JsonObject();
 		jsonObject.addProperty("login", "abc");
 		jsonObject.addProperty("password", "123");
